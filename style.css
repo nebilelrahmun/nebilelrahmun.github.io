@@ -189,8 +189,11 @@ body {
 }
 
 .section-alt {
-    background: #020617;
+    background: radial-gradient(circle at top, #020617, #020617 55%, #020617);
+    border-top: 1px solid rgba(148, 163, 184, 0.18);
+    border-bottom: 1px solid rgba(148, 163, 184, 0.18);
 }
+
 
 .section-title {
     font-size: 1.7rem;
@@ -323,5 +326,6 @@ body {
         font-size: 0.85rem;
     }
 }
+
 
 
