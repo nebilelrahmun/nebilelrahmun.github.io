@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <title>nebilrah | Personal Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container hero-content">
+      <div class="hero-card">
+        <h1>nebilrah</h1>
+        <h2>Computer Engineering Student | Software Developer</h2>
+        <p>
+          I enjoy programming, artificial intelligence, and building practical
+          projects such as gesture analysis systems, mobile apps, and personal
+          websites.
+        </p>
+        <a href="#contact" class="btn">Contact me</a>
+      </div>
+      <div class="avatar">
+        <img src="images/nebil.jpg" alt="Nebil Rahmun" />
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a href="#top" class="logo">nebilrah</a>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="skills-en.html">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="lang-switch">
+        <a href="index.html">AR</a>
+        <span>|</span>
+        <a href="index-en.html" class="active">EN</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h3 class="section-title">About me</h3>
+        <p>
+          I'm Nebil, a Computer Engineering student living in Türkiye. I'm
+          interested in software development and AI applications. I work on
+          personal projects such as gesture-based security systems, Flutter
+          apps, and simple web sites that I use as my portfolio.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS (SHORT PREVIEW) -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h3 class="section-title">Main skills</h3>
+        <div class="chips">
+          <span class="chip">Python</span>
+          <span class="chip">Flutter</span>
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Computer Vision</span>
+          <span class="chip">MediaPipe</span>
+          <span class="chip">OpenCV</span>
+          <span class="chip">Veritabanı / SQL</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h3 class="section-title">Projects</h3>
+
+        <div class="cards">
+          <article class="card">
+            <h4>GestureLock – Gesture-based Lock</h4>
+            <p>
+              A security system based on hand-gesture recognition using
+              MediaPipe and OpenCV. It allows unlocking with custom gestures
+              instead of a traditional password.
+            </p>
+            <p class="card-tag">Python · Computer Vision</p>
+          </article>
+
+          <article class="card">
+            <h4>MiniStore – Simple Delivery App</h4>
+            <p>
+              A prototype mobile app similar to delivery apps, built with
+              Flutter with main screens like home, cart, and profile.
+            </p>
+            <p class="card-tag">Flutter · Mobile App</p>
+          </article>
+
+          <article class="card">
+            <h4>Personal site – nebilrah</h4>
+            <p>
+              This minimal personal website built from scratch with HTML and
+              CSS to introduce myself and showcase my projects.
+            </p>
+            <p class="card-tag">HTML · CSS</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h3 class="section-title">Contact</h3>
+        <p>
+          Feel free to contact me for collaboration, project ideas, or any
+          questions:
+        </p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> nebilelrahmun@gmail.com</li>
+          <li>
+            <strong>WhatsApp:</strong>
+            <span class="ltr">+90 551 193 84 75</span>
+          </li>
+          <li>
+            <strong>Instagram:</strong>
+            <a href="https://instagram.com/nebil_rah8" target="_blank" rel="noopener">
+              @nebil_rah8
+            </a>
+          </li>
+          <li>
+            <strong>Github:</strong>
+            <a href="https://github.com/nebilelrahmun" target="_blank" rel="noopener">
+              github.com/nebilelrahmun
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Nebil Rahmun. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
