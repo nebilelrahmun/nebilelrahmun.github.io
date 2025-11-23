@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Skills | nebilrah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a href="index-en.html#top" class="logo">nebilrah</a>
+
+      <ul class="nav-links">
+        <li><a href="index-en.html#about">About</a></li>
+        <li><a href="skills-en.html">Skills</a></li>
+        <li><a href="index-en.html#projects">Projects</a></li>
+        <li><a href="index-en.html#contact">Contact</a></li>
+      </ul>
+
+      <div class="lang-switch">
+        <a href="skills.html">AR</a>
+        <span>|</span>
+        <a href="skills-en.html" class="active">EN</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section section-alt">
+      <div class="container">
+        <h3 class="section-title">Skills</h3>
+        <p>
+          Here is a more detailed overview of my technical skills, the tools I
+          use, and the areas I am currently focusing on.
+        </p>
+
+        <h4 style="margin-top:1.5rem;">Programming languages</h4>
+        <div class="chips">
+          <span class="chip">Python</span>
+          <span class="chip">Dart (Flutter)</span>
+          <span class="chip">C / C++ (basics)</span>
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">JavaScript (basics)</span>
+        </div>
+
+        <h4 style="margin-top:1.5rem;">Focus areas</h4>
+        <div class="chips">
+          <span class="chip">Computer Vision</span>
+          <span class="chip">MediaPipe</span>
+          <span class="chip">OpenCV</span>
+          <span class="chip">Android apps with Flutter</span>
+          <span class="chip">Databases / SQL</span>
+        </div>
+
+        <h4 style="margin-top:1.5rem;">Tools & environments</h4>
+        <div class="chips">
+          <span class="chip">VS Code</span>
+          <span class="chip">Android Studio</span>
+          <span class="chip">Git & GitHub</span>
+          <span class="chip">Windows</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Nebil Rahmun. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
