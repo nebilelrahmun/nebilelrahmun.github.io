@@ -132,6 +132,29 @@ body {
     justify-content: space-between;
     padding: 0.75rem 0;
 }
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+}
+
+.lang-switch a {
+  text-decoration: none;
+  color: #cbd5f5;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.lang-switch a.active {
+  background: rgba(148, 163, 184, 0.2);
+  color: #f9fafb;
+}
+
+.lang-switch a:hover {
+  background: rgba(148, 163, 184, 0.3);
+}
 
 .logo {
     font-weight: 700;
@@ -286,3 +309,4 @@ body {
         font-size: 0.85rem;
     }
 }
+
