@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>مهاراتي | نبيل الرحمن</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- نفس الشريط العلوي لكن مع رابط للصفحة الرئيسية -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="index.html#top" class="logo">nebilrah</a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">عنّي</a></li>
+                <li><a href="skills.html">المهارات</a></li>
+                <li><a href="index.html#projects">المشاريع</a></li>
+                <li><a href="index.html#contact">التواصل</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section section-alt">
+            <div class="container">
+                <h3 class="section-title">المهارات</h3>
+                <p>
+                    في هذه الصفحة أشرح بشكل مفصّل أهم المهارات التقنية التي أعمل عليها
+                    والبرامج والأدوات التي أستخدمها يوميًا.
+                </p>
+
+                <h4 style="margin-top:1.5rem;">لغات البرمجة</h4>
+                <div class="chips">
+                    <span class="chip">Python</span>
+                    <span class="chip">Dart (Flutter)</span>
+                    <span class="chip">C / C++ (أساسيات)</span>
+                    <span class="chip">HTML</span>
+                    <span class="chip">CSS</span>
+                    <span class="chip">JavaScript (أساسيات)</span>
+                </div>
+
+                <h4 style="margin-top:1.5rem;">مجالات العمل</h4>
+                <div class="chips">
+                    <span class="chip">Computer Vision</span>
+                    <span class="chip">MediaPipe</span>
+                    <span class="chip">OpenCV</span>
+                    <span class="chip">Android Apps with Flutter</span>
+                    <span class="chip">Veritabanı / SQL</span>
+                </div>
+
+                <h4 style="margin-top:1.5rem;">أدوات وبيئات عمل</h4>
+                <div class="chips">
+                    <span class="chip">VS Code</span>
+                    <span class="chip">Android Studio</span>
+                    <span class="chip">Git & GitHub</span>
+                    <span class="chip">Windows</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> نبيل الرحمن. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
